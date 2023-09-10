@@ -1,0 +1,430 @@
+*{
+    font-family: arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 300px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegation{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav .active a, nav a:hover{
+    background-color: #39aae1;
+    color: aliceblue;
+}
+
+
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner_headline h1{
+    color: whitesmoke;
+    font-size: 70px;
+    text-shadow: 2px 2px 0px rgb(35, 15, 15);
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+.banner_headline h2{
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow: 2px 2px 0px rgb(35, 15, 15);
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 350px;
+}
+
+
+.banner_option{
+    height: 210px;
+    display: flex;
+    color: whitesmoke;
+    font-size: 21px;
+}
+
+.banner1,
+.banner2,
+.banner3{
+    padding: 20px;
+    flex: 1;
+}
+
+.banner1{
+    background-color: #39aae1;
+}
+
+.banner2{
+    background-color: #026FC7;
+}
+
+.banner3{
+    background-color: #024292;
+}
+
+.banner_desc{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.banner_option a, .banner_option a:hover{
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner3_Opening{
+    margin-top: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.widget_title_bar{
+    margin-top: 10px;
+    background-color: #39aae1;
+    width: 50px;
+    height: 2px;
+}
+
+.containerSquare{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #32aae1;
+    margin: 10px;
+}
+
+
+.appointment{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;   
+}
+
+
+.line{
+    border-bottom: 2px solid rgb(117, 117, 117, 0.5);
+    padding: 10px;
+    font-size: 12px;
+}
+
+.space{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image{
+    width: 20px;
+    margin: 5px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article .newsData{
+    display: flex;
+}
+
+article .news_posted_at{
+    background-color: #2b4c99;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_commments{
+    background-color: #32aae1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+article .newsThumbnail {
+    margin-top: 30px;
+}
+
+article .newsThumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .newsTitle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 25px;
+}
+
+article .newsResume{
+    font-size: 12px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.footerMenu{
+    display: flex;
+
+}
+
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.fm_1{
+    background-color: #32aae1;
+}
+.fm_2{
+    background-color: #026FC7;
+}
+.fm_3{
+    background-color: #024292;
+}
+
+
+.fm_title h1{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.fm_subtitle{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fm_subtitle img{
+    width: 8px;
+    margin-left: 5px;
+    height: auto;
+}
+
+
+.footerArea{
+    display: flex;
+    color: white;
+}
+
+.footerAreaItem{
+    flex: 1;
+}
+
+.areaTitle{
+    margin-top: 30px;
+    margin: 20px;
+}
+.areaTitleText{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.areaTitleBar{
+    margin-top: 10px;
+    background-color: #39aae1;
+    width: 50px;
+    height: 2px;
+}
+
+.areaBody{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.areaBody .div1{
+    margin-bottom: 40px;
+}
+
+.bColor{
+    color: rgb(117, 117, 117, 0.75);
+}
+
+.b1 span{
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.b1 .inline{
+    justify-content: space-between;
+}
+
+.spanColor{
+    color: white;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+a{
+    display: block;
+    color: #026FC7;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.footerContact{
+    margin-top: 40px;
+    display: flex;
+}
+
+.socialMedia{
+    background-color: rgb(117, 117, 117, 0.75);
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+
+.footer_copy{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.copyColor{
+    color: #FFFFFF;
+}
+
+.linha{
+    border-bottom: solid rgb(117, 117, 117, 0.75);
+    width: 100%;
+}
+
+
+
